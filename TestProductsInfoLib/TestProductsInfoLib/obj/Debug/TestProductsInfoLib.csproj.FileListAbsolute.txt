@@ -1,0 +1,10 @@
+d:\documents\visual studio 2012\Projects\TestProductsInfoLib\TestProductsInfoLib\bin\Debug\TestProductsInfoLib.exe.config
+d:\documents\visual studio 2012\Projects\TestProductsInfoLib\TestProductsInfoLib\bin\Debug\TestProductsInfoLib.exe
+d:\documents\visual studio 2012\Projects\TestProductsInfoLib\TestProductsInfoLib\bin\Debug\TestProductsInfoLib.pdb
+d:\documents\visual studio 2012\Projects\TestProductsInfoLib\TestProductsInfoLib\bin\Debug\ProductsInfoLib.dll
+d:\documents\visual studio 2012\Projects\TestProductsInfoLib\TestProductsInfoLib\obj\Debug\TestProductsInfoLib.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2012\Projects\TestProductsInfoLib\TestProductsInfoLib\obj\Debug\TestProductsInfoLib.Form1.resources
+d:\documents\visual studio 2012\Projects\TestProductsInfoLib\TestProductsInfoLib\obj\Debug\TestProductsInfoLib.Properties.Resources.resources
+d:\documents\visual studio 2012\Projects\TestProductsInfoLib\TestProductsInfoLib\obj\Debug\TestProductsInfoLib.csproj.GenerateResource.Cache
+d:\documents\visual studio 2012\Projects\TestProductsInfoLib\TestProductsInfoLib\obj\Debug\TestProductsInfoLib.exe
+d:\documents\visual studio 2012\Projects\TestProductsInfoLib\TestProductsInfoLib\obj\Debug\TestProductsInfoLib.pdb

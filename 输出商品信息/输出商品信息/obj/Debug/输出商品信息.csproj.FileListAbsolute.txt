@@ -1,0 +1,10 @@
+d:\documents\visual studio 2012\Projects\输出商品信息\输出商品信息\bin\Debug\输出商品信息.exe.config
+d:\documents\visual studio 2012\Projects\输出商品信息\输出商品信息\bin\Debug\输出商品信息.exe
+d:\documents\visual studio 2012\Projects\输出商品信息\输出商品信息\bin\Debug\输出商品信息.pdb
+d:\documents\visual studio 2012\Projects\输出商品信息\输出商品信息\obj\Debug\输出商品信息.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2012\Projects\输出商品信息\输出商品信息\obj\Debug\输出商品信息.Form1.resources
+d:\documents\visual studio 2012\Projects\输出商品信息\输出商品信息\obj\Debug\输出商品信息.Properties.Resources.resources
+d:\documents\visual studio 2012\Projects\输出商品信息\输出商品信息\obj\Debug\输出商品信息.csproj.GenerateResource.Cache
+d:\documents\visual studio 2012\Projects\输出商品信息\输出商品信息\obj\Debug\输出商品信息.exe
+d:\documents\visual studio 2012\Projects\输出商品信息\输出商品信息\obj\Debug\输出商品信息.pdb
+D:\Documents\Visual Studio 2012\Projects\输出商品信息\输出商品信息\bin\Debug\SpeakLib.dll
