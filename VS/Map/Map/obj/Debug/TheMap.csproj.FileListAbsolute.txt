@@ -1,0 +1,5 @@
+d:\documents\visual studio 2012\Projects\Map\Map\bin\Debug\Map.dll
+d:\documents\visual studio 2012\Projects\Map\Map\bin\Debug\Map.pdb
+d:\documents\visual studio 2012\Projects\Map\Map\obj\Debug\TheMap.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2012\Projects\Map\Map\obj\Debug\Map.dll
+d:\documents\visual studio 2012\Projects\Map\Map\obj\Debug\Map.pdb

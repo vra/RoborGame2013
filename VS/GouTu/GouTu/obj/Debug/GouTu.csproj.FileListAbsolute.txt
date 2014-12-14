@@ -1,0 +1,16 @@
+d:\documents\visual studio 2012\Projects\GouTu\GouTu\bin\Debug\GouTu.exe.config
+d:\documents\visual studio 2012\Projects\GouTu\GouTu\bin\Debug\GouTu.exe
+d:\documents\visual studio 2012\Projects\GouTu\GouTu\bin\Debug\GouTu.pdb
+d:\documents\visual studio 2012\Projects\GouTu\GouTu\obj\Debug\GouTu.Form1.resources
+d:\documents\visual studio 2012\Projects\GouTu\GouTu\obj\Debug\GouTu.Properties.Resources.resources
+d:\documents\visual studio 2012\Projects\GouTu\GouTu\obj\Debug\GouTu.csproj.GenerateResource.Cache
+d:\documents\visual studio 2012\Projects\GouTu\GouTu\obj\Debug\GouTu.exe
+d:\documents\visual studio 2012\Projects\GouTu\GouTu\obj\Debug\GouTu.pdb
+d:\documents\visual studio 2012\Projects\GouTu\GouTu\obj\Debug\GouTu.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2012\Projects\GouTu\GouTu\bin\Debug\SpeakLib.dll
+d:\Documents\Visual Studio 2012\Projects\GouTu\GouTu\bin\Debug\ProductInfomationLib.dll
+d:\Documents\Visual Studio 2012\Projects\GouTu\GouTu\bin\Debug\ProductInfomationLib.pdb
+D:\Documents\Visual Studio 2012\Projects\GouTu\GouTu\bin\Debug\Map.dll
+D:\Documents\Visual Studio 2012\Projects\GouTu\GouTu\bin\Debug\RouteLibrary.dll
+D:\Documents\Visual Studio 2012\Projects\GouTu\GouTu\bin\Debug\Map.pdb
+D:\Documents\Visual Studio 2012\Projects\GouTu\GouTu\bin\Debug\RouteLibrary.pdb

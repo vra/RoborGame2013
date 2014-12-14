@@ -1,0 +1,5 @@
+d:\documents\visual studio 2012\Projects\ProductInfomationLib\ProductInfomationLib\obj\Debug\ProductInfomationLib.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2012\Projects\ProductInfomationLib\ProductInfomationLib\bin\Debug\ProductInfomationLib.dll
+d:\documents\visual studio 2012\Projects\ProductInfomationLib\ProductInfomationLib\bin\Debug\ProductInfomationLib.pdb
+d:\documents\visual studio 2012\Projects\ProductInfomationLib\ProductInfomationLib\obj\Debug\ProductInfomationLib.dll
+d:\documents\visual studio 2012\Projects\ProductInfomationLib\ProductInfomationLib\obj\Debug\ProductInfomationLib.pdb

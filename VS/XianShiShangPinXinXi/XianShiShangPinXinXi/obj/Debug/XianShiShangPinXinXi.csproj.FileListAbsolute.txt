@@ -1,0 +1,13 @@
+d:\documents\visual studio 2012\Projects\XianShiShangPinXinXi\XianShiShangPinXinXi\bin\Debug\XianShiShangPinXinXi.exe.config
+d:\documents\visual studio 2012\Projects\XianShiShangPinXinXi\XianShiShangPinXinXi\bin\Debug\XianShiShangPinXinXi.exe
+d:\documents\visual studio 2012\Projects\XianShiShangPinXinXi\XianShiShangPinXinXi\bin\Debug\XianShiShangPinXinXi.pdb
+d:\documents\visual studio 2012\Projects\XianShiShangPinXinXi\XianShiShangPinXinXi\obj\Debug\XianShiShangPinXinXi.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2012\Projects\XianShiShangPinXinXi\XianShiShangPinXinXi\obj\Debug\MainWindow.baml
+d:\documents\visual studio 2012\Projects\XianShiShangPinXinXi\XianShiShangPinXinXi\obj\Debug\MainWindow.g.cs
+d:\documents\visual studio 2012\Projects\XianShiShangPinXinXi\XianShiShangPinXinXi\obj\Debug\App.g.cs
+d:\documents\visual studio 2012\Projects\XianShiShangPinXinXi\XianShiShangPinXinXi\obj\Debug\XianShiShangPinXinXi_MarkupCompile.cache
+d:\documents\visual studio 2012\Projects\XianShiShangPinXinXi\XianShiShangPinXinXi\obj\Debug\XianShiShangPinXinXi.g.resources
+d:\documents\visual studio 2012\Projects\XianShiShangPinXinXi\XianShiShangPinXinXi\obj\Debug\XianShiShangPinXinXi.Properties.Resources.resources
+d:\documents\visual studio 2012\Projects\XianShiShangPinXinXi\XianShiShangPinXinXi\obj\Debug\XianShiShangPinXinXi.csproj.GenerateResource.Cache
+d:\documents\visual studio 2012\Projects\XianShiShangPinXinXi\XianShiShangPinXinXi\obj\Debug\XianShiShangPinXinXi.exe
+d:\documents\visual studio 2012\Projects\XianShiShangPinXinXi\XianShiShangPinXinXi\obj\Debug\XianShiShangPinXinXi.pdb

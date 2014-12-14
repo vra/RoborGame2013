@@ -1,0 +1,4 @@
+d:\documents\visual studio 2012\Projects\Products\Products\bin\Debug\Products.dll
+d:\documents\visual studio 2012\Projects\Products\Products\bin\Debug\Products.pdb
+d:\documents\visual studio 2012\Projects\Products\Products\obj\Debug\Products.dll
+d:\documents\visual studio 2012\Projects\Products\Products\obj\Debug\Products.pdb

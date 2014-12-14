@@ -1,0 +1,881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnVoice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 313</value>
+  </data>
+  <data name="btnVoice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnVoice.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnVoice.Text" xml:space="preserve">
+    <value>发声</value>
+  </data>
+  <data name="&gt;&gt;btnVoice.Name" xml:space="preserve">
+    <value>btnVoice</value>
+  </data>
+  <data name="&gt;&gt;btnVoice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnVoice.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnVoice.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbxName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tbxName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 19</value>
+  </data>
+  <data name="tbxName.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbxName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 32</value>
+  </data>
+  <data name="tbxName.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tbxName.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbxName.Name" xml:space="preserve">
+    <value>tbxName</value>
+  </data>
+  <data name="&gt;&gt;tbxName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxName.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;tbxName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 17</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 311</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>所在货架层数</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbxStair.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tbxStair.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 311</value>
+  </data>
+  <data name="tbxStair.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbxStair.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 34</value>
+  </data>
+  <data name="tbxStair.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tbxStair.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbxStair.Name" xml:space="preserve">
+    <value>tbxStair</value>
+  </data>
+  <data name="&gt;&gt;tbxStair.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxStair.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;tbxStair.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbxShelf.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tbxShelf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 241</value>
+  </data>
+  <data name="tbxShelf.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbxShelf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 33</value>
+  </data>
+  <data name="tbxShelf.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tbxShelf.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbxShelf.Name" xml:space="preserve">
+    <value>tbxShelf</value>
+  </data>
+  <data name="&gt;&gt;tbxShelf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxShelf.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;tbxShelf.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tbxPrice.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tbxPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 164</value>
+  </data>
+  <data name="tbxPrice.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbxPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 33</value>
+  </data>
+  <data name="tbxPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tbxPrice.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbxPrice.Name" xml:space="preserve">
+    <value>tbxPrice</value>
+  </data>
+  <data name="&gt;&gt;tbxPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxPrice.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;tbxPrice.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbxType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tbxType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 100</value>
+  </data>
+  <data name="tbxType.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbxType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 30</value>
+  </data>
+  <data name="tbxType.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tbxType.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbxType.Name" xml:space="preserve">
+    <value>tbxType</value>
+  </data>
+  <data name="&gt;&gt;tbxType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxType.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;tbxType.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 100</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 17</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>分类</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 164</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 17</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>价格</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 241</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>货架编号</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 135</value>
+  </data>
+  <data name="groupBox1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>530, 345</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 345</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>商品信息</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbxInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 80</value>
+  </data>
+  <data name="tbxInput.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 1</value>
+  </data>
+  <data name="tbxInput.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbxInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 30</value>
+  </data>
+  <data name="tbxInput.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tbxInput.Name" xml:space="preserve">
+    <value>tbxInput</value>
+  </data>
+  <data name="&gt;&gt;tbxInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxInput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbxInput.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 60</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 17</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>输入商品编号：</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 80</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 32</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="btnConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 33</value>
+  </data>
+  <data name="btnConnect.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnConnect.Text" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="&gt;&gt;btnConnect.Name" xml:space="preserve">
+    <value>btnConnect</value>
+  </data>
+  <data name="&gt;&gt;btnConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnConnect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnConnect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>553, 483</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10.5pt, style=Bold</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAQEAAAAEAIAAoQgAAFgAAACgAAABAAAAAgAAAAAEAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+VOcWPlTngz5U
+        58c+VOfjPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U
+        5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U
+        5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U
+        5+k+VOfpPlTn6T5U5+k+VOfpPlTn4z5U58k+VOeDPlTnFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAA+VOc8PlTn6z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5+s+VOc8AAAAAAAA
+        AAAAAAAAAAAAAAAAAAA+VOcYPlTn7z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn6z5U5xgAAAAAAAAAAAAAAAAAAAAAPlTngz5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOeDAAAAAAAAAAAAAAAAAAAAAD5U58k+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTnyQAAAAAAAAAAAAAAAAAA
+        AAA+VOfjPlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5+MAAAAAAAAAAAAAAAAAAAAAPlTn6T5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOfpAAAAAAAAAAAAAAAAAAAAAD5U5+k+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn6QAAAAAAAAAAAAAAAAAAAAA+VOfpPlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5+kAAAAAAAAAAAAA
+        AAAAAAAAPlTn6T5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOfpAAAAAAAAAAAAAAAAAAAAAD5U5+k+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/9QZOn/fozv/4SS
+        8P9Xaur/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/9SZur/gI7v/4KQ7/9VaOr/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn6QAAAAAAAAAAAAAAAAAAAAA+VOfpPlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/+EkvD/9vf+/////////////f3//6Cr8/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/+NmvH/+Pn+////////////+vv+/5ei8v8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5+kAAAAAAAAAAAAAAAAAAAAAPlTn6T5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/9lduz/+vv+////////////////////////////hJLw/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/9ufu3//f3/////////////////////////////eYju/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOfpAAAAAAAA
+        AAAAAAAAAAAAAD5U5+k+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/ucH2///////9/f//h5Tw/3eG7v/v8f3//////9vf
+        +v8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/xMv4///////4+f7/gI7v/3uK
+        7//09f7//////8/V+f8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn6QAAAAAAAAAAAAAAAAAAAAA+VOfpPlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/8vR+f//////6+38/z5U
+        5/8+VOf/wsn3///////t7/3/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/9bb
+        +v//////3+P7/z5U5/8+VOf/1Nn6///////h5fv/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5+kAAAAAAAAAAAAAAAAAAAAAPlTn6T5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/+wufX///////////+wufX/najz//j5/v//////0tf5/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/+7w/f///////////+ps/T/oq3z//39////////xs34/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOfpAAAAAAAAAAAAAAAAAAAAAD5U
+        5+k+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/Umbq//Hz/f///////////////////////f3//25+7f8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/WWzq//j5/v//////////////////////+vv+/2V2
+        7P8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn6QAA
+        AAAAAAAAAAAAAAAAAAA+VOfpPlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/9neOz/4eX7////////////7/H9/3uK
+        7/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/9ufu3/5un8////
+        ////////6+38/3SE7v8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5+kAAAAAAAAAAAAAAAAAAAAAPlTn6T5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/9Xaur/XnDr/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/9ZbOr/XG7r/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOfpAAAAAAAAAAAAAAAAAAAAAD5U5+k+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn6QAAAAAAAAAAAAAAAAAA
+        AAA+VOfpPlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/9AVuf/ZXbs/2V27P9lduz/ZXbs/2V27P9lduz/ZXbs/2V27P9lduz/ZXbs/2V2
+        7P9lduz/ZXbs/2V27P9lduz/ZXbs/2V27P9lduz/ZXbs/2V27P9lduz/ZXbs/2V27P9lduz/ZXbs/2V2
+        7P9lduz/ZXbs/0Va6P8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5+kAAAAAAAAAAAAAAAAAAAAAPlTn6T5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/a3zt////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////9ygu3/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOfpAAAAAAAAAAAAAAAAAAAAAD5U5+k+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/6Cr8///////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////kp7x/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn6QAAAAAAAAAAAAAAAAAAAAA+VOfpPlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5//S1/n/////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////7K7
+        9f8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5+kAAAAAAAAAAAAA
+        AAAAAAAAPlTn6T5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/9MYOn//f3/////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////U2fr/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOfpAAAAAAAAAAAAAAAAAAAAAD5U5+k+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/gpDv////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////9PX+/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn6QAAAAAAAAAAAAAAAAAAAAA+VOfpPlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/7K79f//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////9SZur/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5+kAAAAAAAAAAAAAAAAAAAAAPlTn6T5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5//o6/z/////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////coLt/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOfpAAAAAAAA
+        AAAAAAAAAAAAAD5U5+k+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/9gcuv/////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////5Ke8f8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn6QAAAAAAAAAAAAAAAAAAAAA+VOfpPlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/l6Ly////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////+yu/X/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5+kAAAAAAAAAAAAAAAAAAAAAPlTn6T5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/8bN+P//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////1Nn6/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOfpAAAAAAAAAAAAAAAAAAAAAD5U
+        5+k+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/0Va
+        6P/4+f7/////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////T1/v8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn6QAA
+        AAAAAAAAAAAAAAAAAAA+VOfpPlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/93hu7/////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////Umbq/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5+kAAAAAAAAAAAAAAAAAAAAAPlTn6T5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/qbP0////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////3KC7f8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOfpAAAAAAAAAAAAAAAAAAAAAD5U5+k+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/93h+///////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //+SnvH/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn6QAAAAAAAAAAAAAAAAAA
+        AAA+VOfpPlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/1Vo
+        6v//////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////srv1/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5+kAAAAAAAAAAAAAAAAAAAAAPlTn6T5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/+NmvH/////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////9TZ+v8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOfpAAAAAAAAAAAAAAAAAAAAAD5U5+k+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/u8P3////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////09f7/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn6QAAAAAAAAAAAAAAAAAAAAA+VOfpPlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/QFbn//Hz/f//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////1Jm6v8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5+kAAAAAAAAAAAAA
+        AAAAAAAAPlTn6T5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/2t8
+        7f//////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////90hO7/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOfpAAAAAAAAAAAAAAAAAAAAAD5U5+k+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/+gq/P/////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////kp7x/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn6QAAAAAAAAAAAAAAAAAAAAA+VOfpPlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/0tf5////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////7K7
+        9f8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5+kAAAAAAAAAAAAAAAAAAAAAPlTn6T5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/TGDp//39////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////U2fr/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOfpAAAAAAAA
+        AAAAAAAAAAAAAD5U5+k+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/3CA
+        7f/Y3fr/2N36/9/j+//////////////////r7fz/2N36/9jd+v/Y3fr/2N36/9jd+v/Y3fr/2N36/9jd
+        +v/Y3fr/2N36/9jd+v/Y3fr/2N36/9jd+v/Y3fr/2N36/9jd+v/Y3fr/2N36/9jd+v/Y3fr/2N36/9jd
+        +v/Y3fr/2N36/9jd+v/Y3fr/2N36/9jd+v/Y3fr/zdP5/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn6QAAAAAAAAAAAAAAAAAAAAA+VOfpPlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/0Va6P/Jz/j////////////Y3fr/TGDp/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5+kAAAAAAAAAAAAAAAAAAAAAPlTn6T5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/0Va6P/Jz/j////////////Y3fr/TGDp/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOfpAAAAAAAAAAAAAAAAAAAAAD5U
+        5+k+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/9ufu3/srv1/7K79f/U2fr/////////
+        ////////v8f3/7K79f+yu/X/srv1/6239f9ecOv/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn6QAA
+        AAAAAAAAAAAAAAAAAAA+VOfpPlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/8fP9////
+        ////////////////////////////////////////////////////////zdP5/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5+kAAAAAAAAAAAAAAAAAAAAAPlTn6T5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/7C59f/9/f//////////////////////////////////////////////////9vf+/5Sg
+        8v8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOfpAAAAAAAAAAAAAAAAAAAAAD5U5+k+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn6QAAAAAAAAAAAAAAAAAA
+        AAA+VOfpPlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5+kAAAAAAAAAAAAAAAAAAAAAPlTn6T5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOfpAAAAAAAAAAAAAAAAAAAAAD5U5+k+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn6QAAAAAAAAAAAAAAAAAAAAA+VOfpPlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5+kAAAAAAAAAAAAA
+        AAAAAAAAPlTn4z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOfjAAAAAAAAAAAAAAAAAAAAAD5U58k+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTnyQAAAAAAAAAAAAAAAAAAAAA+VOeBPlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U54MAAAAAAAAAAAAAAAAAAAAAPlTnGD5U
+        5+0+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5+s+VOcYAAAAAAAA
+        AAAAAAAAAAAAAAAAAAA+VOc8PlTn6z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U5/8+VOf/PlTn/z5U
+        5+s+VOc6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD5U5xY+VOeBPlTnxz5U5+M+VOfpPlTn6T5U
+        5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U
+        5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U
+        5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U5+k+VOfpPlTn6T5U
+        5+k+VOfjPlTnxz5U54E+VOcWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//////////////////////gAAAAAAAAf8AAAAAAAAA/gAAAAAAAAB8AAAAAAAAADwAAAAAAA
+        AAPAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAPAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAPAAAAAAAAAA8AA
+        AAAAAAADwAAAAAAAAAPAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAPAAAAAAAAAA8AAAAAAAAADwAAAAAAA
+        AAPAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAPAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAPAAAAAAAAAA8AA
+        AAAAAAADwAAAAAAAAAPAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAPAAAAAAAAAA8AAAAAAAAADwAAAAAAA
+        AAPAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAPAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAPAAAAAAAAAA8AA
+        AAAAAAADwAAAAAAAAAPAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAPAAAAAAAAAA8AAAAAAAAADwAAAAAAA
+        AAPAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAPAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAPAAAAAAAAAA+AA
+        AAAAAAAH8AAAAAAAAA/4AAAAAAAAH/////////////////////8=
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>输出商品信息</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
